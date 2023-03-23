@@ -5,6 +5,10 @@
 }
 body {
     font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .blue {
     width: 375px;
@@ -20,6 +24,8 @@ body {
     line-height: 23px;
     text-align: center;
     color: #CAC9FF;
+
+    padding: 24px 0 24px 0;
 }
 .circle {
     margin: 0 auto;
@@ -56,15 +62,18 @@ body {
     line-height: 31px;
     text-align: center;
     color: #FFFFFF;
+
+    padding: 24px 0 8px 0;
 }
 .pp {
-    /* width: 260px; */
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
     text-align: center;
     color: #CAC9FF;
+
+    padding: 0 57px;
 }
 
 .summary {
@@ -89,6 +98,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 90px;
+}
+.div1 {
+    display: flex;
+    gap: 10px;
+}
+.div2 {
+    display: flex;
+    gap: 10px;
 }
 .reaction {
     margin-top: 8px;
@@ -155,4 +173,5 @@ button {
 
     width: 315px;
     height: 56px;
+    margin-top: 8px;
 }
