@@ -10,7 +10,6 @@ body {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
 }
 .blue {
     width: 375px;
@@ -176,6 +175,7 @@ button {
         display: flex;
         flex-direction: row;
         background: #ECF2FF;
+        height: 100vh;
     }
     .ddiivv {
         margin-left: 20%;
